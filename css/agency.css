@@ -3,9 +3,14 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+@font-face {
+  font-family: 'Work Sans', sans-serif;
+  src: url('fut.ttf');
+}
+
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 p {
@@ -30,8 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 section {
@@ -46,11 +50,9 @@ section h2.section-heading {
 
 section h3.section-subheading {
   font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -60,28 +62,30 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  letter-spacing: 2px;
+font-family: 'Work Sans', sans-serif;
+border-radius: 0px;
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 15px;
+  padding: 15px 25px;
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: transparent;
+  border-color: rgb(168, 166, 162);
+  color: rgb(168, 166, 162);
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: white;
+  background-color: rgb(168, 166, 162) !important;
+  border-color: rgb(168, 166, 162) !important;
+  color: black;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgb(168, 166, 162) !important;
 }
 
 ::-moz-selection {
@@ -114,29 +118,29 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight:100;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #ffffff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -172,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.jpg"); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -188,19 +192,19 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing:3px;
+  font-weight:100;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  line-height: 75px;
+  margin-bottom: 30px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -209,18 +213,19 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: rgb(168, 166, 162);
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing:3px;
+    font-weight:100;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 80px;
     line-height: 75px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
   }
 }
 
@@ -292,9 +297,8 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
-  font-style: italic;
   margin: 0;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 #portfolio * {
@@ -332,9 +336,8 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p.item-intro {
   font-size: 16px;
-  font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -630,29 +633,25 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 section#contact :-moz-placeholder {
-  font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 section#contact ::-moz-placeholder {
-  font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
-  font-weight: 700;
   color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 footer {
@@ -664,7 +663,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 footer ul.quicklinks {
@@ -672,7 +671,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 ul.social-buttons {
